@@ -1,6 +1,6 @@
 import React from "react";
 import transition from "../transition";
-import { Stack, Text, Image, Separator } from '@fluentui/react';
+import { Text } from '@fluentui/react';
 import "./test.css";
 
 const About = () => {
