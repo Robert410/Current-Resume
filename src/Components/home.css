@@ -23,18 +23,20 @@
 }
 #intro .content{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50px;
     transform: translateY(-50%);
     width: 60%;
     max-width: 80%;
 }
+
 #intro .content .name,
 #intro .content .job{
     font-size: 6em;
     font-weight: bold;
     font-family: 'Righteous', sans-serif;
     line-height: 1em;
+    margin-bottom: 1em;
 }
 .text-gradient{
     background-image: linear-gradient(

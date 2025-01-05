@@ -21,12 +21,12 @@ const Home = () => {
                     <br/>
                 </div>
                 <div className="des">
+                  <b>
                   Feel free to also check my old website(also my first one):         
   <a className="nav-link" href="/page.html" target="_blank" >
     here
-  </a>
+  </a></b>
                 </div>
-                <i className="fa-solid fa-quote-right"></i>
             </div>
         </div>
     </div>
