@@ -77,7 +77,7 @@ const Projects = () => {
             {row.map((item) => (
               <div key={item.id} className="item">
                 <div className="preview-img">
-                  <img src={item.video?.previewImg} alt={item.video?.videoName} />
+                  <img src={item.video?.previewImg} alt={item.video?.videoName} className="imagePreview"/>
                 </div>
                 <p id="videoName">{item.video?.videoName}</p>
 

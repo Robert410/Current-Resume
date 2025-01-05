@@ -5,7 +5,7 @@ import { AnimatePresence } from "framer-motion";
 import NavBar from "./Components/Navbar";
 import Home from "./Components/Home";
 import About from "./Components/About";
-import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 import  Projects from "./Components/Projects";
 
 function App() {
@@ -18,11 +18,11 @@ function App() {
         <Routes location={location} key={location.pathname}>
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/staticPage" element={<Navigate to="/page.html" replace />} />
         </Routes>
       </AnimatePresence>
+      <Footer/>
     </>
   );
 }

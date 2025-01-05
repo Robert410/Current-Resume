@@ -16,23 +16,22 @@ const Item = styled(Paper)(({ theme }) => ({
   }),
 }));
 
-const About = () => {
+const Footer = () => {
   
   return (
-    <div className="contentPage">
+    <div className="footer">
     <Box sx={{ flexGrow: 1 }}>
-      <Grid container spacing={20}>
-  <Grid size={8}>
-    <Item>size=8</Item>
+      <Grid border={1} container spacing={1}>
+  <Grid size={6}>
+    <Item className="footerItem">Footer</Item>
   </Grid>
   <Grid size={4}>
-    <Item>size=4</Item>
+    <Item className="footerItem">Social Media</Item>
   </Grid>
-  <Grid size={4}>
-    <Item>size=4</Item>
+  <Grid size={3}>
   </Grid>
-  <Grid size={8}>
-    <Item>size=8</Item>
+  <Grid size={6}>
+    <Item className="footerItem">Contact</Item>
   </Grid>
 </Grid>
 </Box>
@@ -41,4 +40,4 @@ const About = () => {
   );
 };
 
-export default Transition(About);
+export default Transition(Footer);
