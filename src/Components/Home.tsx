@@ -1,12 +1,12 @@
 import React from "react";
-import transition from "../transition";
+import Transition from "./Transition";
 
 const Home = () => {
   return (
-    <div className="container">
-      <h1>Page Transitions In React</h1>
+    <div className="contentPage">
+      <h1>Halloooo</h1>
     </div>
   );
 };
 
-export default transition(Home);
+export default Transition(Home);

@@ -1,12 +1,12 @@
 import React from "react";
-import transition from "../transition";
+import Transition from "./Transition";
 
 const Contact = () => {
   return (
-    <div className="container">
-      <h1>Contact</h1>
+    <div className="contentPage">
+      projects
     </div>
+
   );
 };
-
-export default transition(Contact);
+export default Transition(Contact);

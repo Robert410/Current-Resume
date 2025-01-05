@@ -30,6 +30,11 @@ const NavBar = () => {
             Contact
           </Link>
         </div>
+        <div className="nav-item">
+  <a className="nav-link" href="/page.html" target="_blank" rel="noopener noreferrer">
+    Open Static Page
+  </a>
+</div>
       </div>
     </div>
   );
