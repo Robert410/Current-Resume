@@ -1,14 +1,16 @@
 import { useEffect, useRef, useState } from "react";
 import Transition from "./Transition";
 import videos from "./assets/images";
-import ReactPlayer from "react-player";
 import "./Projects.css";
+import { Tooltip } from "@mui/material";
 
 interface Video {
   id: string;
   videoId: string;
   videoName: string;
   previewImg: string;
+  description: string;
+  video: string;
 }
 
 interface Item {
@@ -27,7 +29,6 @@ const Projects = () => {
       const rows = [
         { id: 1, count: 2 },
         { id: 2, count: 2 },
-        { id: 3, count: 2 },
       ];
 
       const newItems = rows.map((row) => {
@@ -77,23 +78,17 @@ const Projects = () => {
             {row.map((item) => (
               <div key={item.id} className="item">
                 <div className="preview-img">
-                  <img src={item.video?.previewImg} alt={item.video?.videoName} className="imagePreview"/>
+                  <Tooltip title={item.video?.description}>
+                    <a href={item.video?.videoId} target="_blank" >
+                  <img src={item.video?.previewImg} alt={item.video?.videoName} className="imagePreview"/></a>
+                  </Tooltip>
                 </div>
                 <p id="videoName">{item.video?.videoName}</p>
 
                 <div className="work-video-wrapper">
                   {item.video && (
                     <>
-                      <ReactPlayer
-                        url={`https://vimeo.com/82123812`}
-                        controls={false}
-                        autoPlay={true}
-                        loop={true}
-                        playing
-                        muted
-                        width="100%"
-                        height="100%"
-                      />
+                  <img src={item.video?.video} alt={item.video?.videoName} className="imagePreview"/>
                     </>
                   )}
                 </div>

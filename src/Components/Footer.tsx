@@ -5,6 +5,11 @@ import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: '#fff',
   ...theme.typography.body2,
@@ -22,16 +27,25 @@ const Footer = () => {
     <div className="footer">
     <Box sx={{ flexGrow: 1 }}>
       <Grid border={1} container spacing={1}>
-  <Grid size={6}>
-    <Item className="footerItem">Footer</Item>
-  </Grid>
   <Grid size={4}>
-    <Item className="footerItem">Social Media</Item>
-  </Grid>
-  <Grid size={3}>
+    <Item className="footerItem">
+      You can find me on:
+      <br/>
+      <FacebookIcon/>
+      <InstagramIcon/>
+      <LinkedInIcon/>
+      <GitHubIcon/>
+    </Item>
   </Grid>
   <Grid size={6}>
-    <Item className="footerItem">Contact</Item>
+    <Item className="footerItem">Feel free to contact me:
+      <br/>
+      roberthostiuc@gmail.com or 
+      +40 0754384708
+    </Item>
+  </Grid>
+  <Grid size={6}>
+    <Item className="footerItem">@2022 Hostiuc Robert Gabriel. All rights reserved.</Item>
   </Grid>
 </Grid>
 </Box>

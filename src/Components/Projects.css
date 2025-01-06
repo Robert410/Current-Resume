@@ -45,7 +45,6 @@
     left: 0;
     width: 100%;
     height: 100%;
-    transform: scale(2);
     transition: 0.3s all;
   }
   
@@ -73,7 +72,7 @@
     text-align: center;
     font-size: 30px;
     font-family: "FK Display";
-    color: #fff;
+    color: #000;
     opacity: 0;
     transition: 0.15s;
     pointer-events: none;

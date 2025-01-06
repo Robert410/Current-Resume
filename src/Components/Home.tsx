@@ -12,19 +12,19 @@ const Home = () => {
             <div className="content">
                 <div className="name">Hostiuc Robert - Gabriel</div>
                 <div className="job">
-                    I'm <span className="text-gradient">
-                        a Full Stack Developer
+                    I'm a <span className="text-gradient">
+                        Full Stack Developer
                     </span>
                 </div>
                 <div className="des">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse dolorum vero a, quibusdam ipsa eius aliquid incidunt totam vel itaque exercitationem doloribus tenetur officia repellendus velit in distinctio optio quisquam.
+                Passionate and communicative web developer eager to keep learning and passionate about computer science. I thrive on infusing creativity into everything I build.
                     <br/>
                 </div>
                 <div className="des">
                   <b>
-                  Feel free to also check my old website(also my first one):         
-  <a className="nav-link" href="/page.html" target="_blank" >
-    here
+                  Feel free to also check my old website(also my first one):           
+  <a className="oldWebsite" href="/page.html" target="_blank" >
+      here
   </a></b>
                 </div>
             </div>

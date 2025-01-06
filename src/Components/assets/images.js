@@ -1,81 +1,40 @@
 const videos = [
     {
       id: "1-0",
-      videoId: "82123812",
-      videoName: "Sport Power Ad Campaign",
+      videoId: "https://github.com/Robert410/Waterbenders-Dallet",
+      videoName: "Online Document Manager",
       previewImg:
-        "/assets/img1.jpg",
+        "/img/6.png",
+      description: "A project created during college as an extracurricular activity at Object Oriented Programming that lets users upload and manage PDFs of their documents, giving them an alert when that document will expire. The application was made in C++.",
+      video: "/img/7.png"
     },
     {
       id: "1-1",
-      videoId: "82123812",
-      videoName: "Brand Vision Promo",
+      videoId: "https://github.com/Robert410/ProiectSiteSpaniola/tree/master",
+      videoName: "Educational spanis site",
       previewImg:
-        "/assets/img1.jpg",
-    },
-    {
-      id: "1-2",
-      videoId: "82123812",
-      videoName: "Minimal Motion Graphics",
-      previewImg:
-        "/assets/img1.jpg",
-    },
-    {
-      id: "1-3",
-      videoId: "176422498",
-      videoName: "Project Momentum Highlights",
-      previewImg:
-        "/assets/img1.jpg",
+        "/img/2.png",
+      description: "Worked together with 2 friends on a Web Application that lets Spanish tutors play real-time educational games with their students. I wrote the frontend for the entire project which has 6 different pages (home page, learning materials, quiz, bingo, contact, host/join, Geography) with distinct interactive components, loaders and tooltip messages.",
+      video: "/img/1.png"
     },
     {
       id: "2-0",
-      videoId: "540889297",
-      videoName: "Ad Strategy Execution",
+      videoId: "https://github.com/Robert410/Waterbenders-Dallet",
+      videoName: "Crop efficacy prediction",
       previewImg:
-        "/assets/img1.jpg",
+        "/img/8.png",
+      description: "Created in a team environment a prediction-based algorithms to determine crop growth using a mathematical formula.A project which predicted crop efficacy using weather data and location information. Every user has their own account and each entered data can be modified. With this project we won second place at.",
+      video: "/img/11.png"
     },
     {
       id: "2-1",
-      videoId: "569373486",
-      videoName: "Sport Drive Showcase",
+      videoId: "",
+      videoName: "Hide and Seek 3D Game",
       previewImg:
-        "/assets/img1.jpg",
-    },
-    {
-      id: "2-2",
-      videoId: "464308114",
-      videoName: "Brand Essence Storytelling",
-      previewImg:
-        "/assets/img1.jpg",
-    },
-    {
-      id: "3-0",
-      videoId: "510814675",
-      videoName: "Minimal Flair Presentation",
-      previewImg:
-        "/assets/img1.jpg",
-    },
-    {
-      id: "3-1",
-      videoId: "187209770",
-      videoName: "Project Pulse Documentary",
-      previewImg:
-        "/assets/img1.jpg",
-    },
-    {
-      id: "3-2",
-      videoId: "437808118",
-      videoName: "Ad Creativity Concepts",
-      previewImg:
-        "/assets/img1.jpg",
-    },
-    {
-      id: "3-3",
-      videoId: "871750630",
-      videoName: "Sport Icon Journey",
-      previewImg:
-        "/assets/img1.jpg",
-    },
+        "/img/20.png",
+      description: "An Unreal Engine project created during summer with four colleagues. I developed the design part (the entire map and collisions) with secret passages using Blender. I also worked on spawning different powers, items and hints through the map.",
+      video: "/img/21.png"
+    }
   ];
   
   export default videos;
