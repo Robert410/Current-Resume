@@ -31,10 +31,14 @@ const Footer = () => {
     <Item className="footerItem">
       You can find me on:
       <br/>
-      <FacebookIcon/>
-      <InstagramIcon/>
-      <LinkedInIcon/>
-      <GitHubIcon/>
+      <a href={"https://www.facebook.com/roberth410/"} target="_blank" rel="noreferrer" >
+      <FacebookIcon/></a>
+      <a href={"https://www.instagram.com/roberthostiuc/"} target="_blank" rel="noreferrer" >
+      <InstagramIcon/></a>
+      <a href={"https://www.linkedin.com/in/robert-hostiuc/" } target="_blank" rel="noreferrer" >
+      <LinkedInIcon/></a>
+      <a href={"https://github.com/Robert410"} target="_blank" rel="noreferrer" >
+      <GitHubIcon/></a>
     </Item>
   </Grid>
   <Grid size={6}>
