@@ -49,7 +49,7 @@ const Footer = () => {
     </Item>
   </Grid>
   <Grid size={6}>
-    <Item className="footerItem">@2022 Hostiuc Robert Gabriel. All rights reserved.</Item>
+    <Item className="footerItem">@2025 Hostiuc Robert Gabriel. All rights reserved.</Item>
   </Grid>
 </Grid>
 </Box>
