@@ -78,7 +78,7 @@ const Projects = () => {
             {row.map((item) => (
               <div key={item.id} className="item">
                 <div className="preview-img">
-                  <Tooltip title={item.video?.description}>
+                  <Tooltip title={<h2>{item.video?.description}</h2>}>
                     <a href={item.video?.videoId} target="_blank" rel="noreferrer" >
                   <img src={item.video?.previewImg} alt={item.video?.videoName} className="imagePreview"/></a>
                   </Tooltip>
